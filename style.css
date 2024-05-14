@@ -1,0 +1,90 @@
+/* Reset de estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  font-family: times new roman;
+}
+
+/* Estilo do corpo do site */
+body {
+    font-family: Arial, sans-serif;
+    background-color: aliceblue;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: darkslateblue;
+    color: aliceblue;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+  color: aliceblue;
+  text-align: center;
+}
+
+/* Estilo da seção de introdução */
+.intro {
+    background-color: lavender;
+    padding: 40px;
+    text-align: center;
+  color: darkblue;
+}
+
+/* Estilo das seções de raças e galeria */
+.breeds, .gallery {
+    padding: 40px;
+}
+
+h2 {
+    color: darkslateblue;
+    font-size: 24px;
+    margin-bottom: 20px;
+  color: darkblue;
+}
+
+.breed {
+  color: darkblue;
+}
+.breed, .image {
+    margin-bottom: 40px;
+}
+
+.breed img, .image img {
+    max-width: 100%;
+}
+
+.breed h3 {
+    color: darkslateblue;
+    font-size: 18px;
+    margin-top: 10px;
+  color: darkblue;
+}
+
+.breed p {
+    margin-top: 10px;
+}
+
+.breed a {
+    color: darkslateblue;
+    text-decoration: none;
+    font-weight: bold;
+  color: darkblue;
+}
+
+.breed a:hover {
+    text-decoration: underline;
+}
+image{
+  border-image-width: 200px;
+}
+/* Estilo do rodapé */
+footer {
+    background-color: darkslateblue;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+}
